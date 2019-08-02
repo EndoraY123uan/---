@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音之源</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/swiper-4.5.0/swiper.min.css">
+    <script src="lib/swiper-4.5.0/swiper.min.js"></script>
+    <script src="js/rgbaster.js"></script>
+    <script src="lib/jquery-color/jquery.color.js"></script>
+</head>
+<body>
+<!--网站主页-->
+<!--1.顶部导航栏-->
+<header class="header">
+    <!--logo-->
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+        <span>音之源音乐</span>
+    </div>
+    <!--菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">发现音乐</a></li>
+            <li><a href="#">我的音乐</a></li>
+            <li><a href="#">朋友</a></li>
+            <li><a href="#">商城</a></li>
+            <li><a href="#">音乐人</a></li>
+            <li><a href="#">下载客户端</a></li>
+        </ul>
+    </div>
+    <!--搜索框-->
+    <div class="search">
+        <img src="images/search.png" alt="">
+        <input type="text" placeholder="search">
+    </div>
+    <!--登录-->
+    <div id="login-btn" class="login">
+        <a href="#">登录/注册</a>
+    </div>
+    <div class="user-menu">
+        <ul>
+            <li><a href="http://www.baidu.com">我的主页</a></li>
+            <li><a href="">我的消息</a></li>
+            <li><a href="">我的等级</a></li>
+            <li><a href="">个人设置</a></li>
+            <li><a href="">VIP</a></li>
+            <li><a href="">退出</a></li>
+        </ul>
+    </div>
+</header>
+<!--2.轮播图-->
+<section class="slideshow" id="slide-container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img id="ban1" src="images/banner1.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban2" src="images/banner2.png" alt=""></div>
+            <div class="swiper-slide"><img id="ban3" src="images/banner3.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban4" src="images/banner4.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban5" src="images/banner5.png" alt=""></div>
+            <div class="swiper-slide"><img id="ban6" src="images/banner6.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban7" src="images/banner7.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban8" src="images/banner8.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban9" src="images/banner9.jpg" alt=""></div>
+            <div class="swiper-slide"><img id="ban10" src="images/banner10.png" alt=""></div>
+        </div>
+        <!--分页器-->
+        <div class="swiper-pagination">
+        </div>
+        <!--导航按钮-->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+<!--    <div class="right">
+        <img src="images/banner.jpg" alt="">
+    </div>-->
+</section>
+<!--3.内容区域-->
+<div class="content">
+    <!--3.1 个性化推荐-->
+    <div class="individuation">
+        <header>
+            <img src="images/listlogo.png" alt="">
+            <ul>
+                <li>个性化推荐</li>
+            </ul>
+        </header>
+        <hr>
+        <section>
+            <div class="content-img">
+                <div class="img">
+                    <div id="week"></div>
+                    <div id="day"></div>
+                </div>
+                <div class="lable">
+                    <a href="src/everyday.php">每日推荐</a>
+                </div>
+            </div>
+            <div class="content-list">
+                <div class="content-img">
+                    <div class="img">
+                        <img src="images/style_9.png" alt="">
+                    </div>
+                    <div class="lable">
+                        <a href="src/detail-9.php">「人间不值得，就爱穷开心」</a>
+                    </div>
+                </div>
+                <div class="content-img">
+                    <div class="img">
+                        <img src="images/style_10.png" alt="">
+                    </div>
+                    <div class="lable">
+                        <a href="src/detail-10.php">" 愿你努力之事皆有所成 "</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--3.2. 歌单-->
+    <div class="songlist">
+        <header>
+            <img src="images/listlogo.png" alt="">
+            <ul>
+                <li>歌单</li>
+            </ul>
+        </header>
+        <hr>
+        <section>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_1.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-1.php">你也一定是某个人翘首以盼的惊喜</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_2.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-2.php">别爱太满，别睡太晚</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_3.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-3.php">小付今天蹦迪没？</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_4.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-4.php">你肯定能熬到不喜欢他的那一天</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_5.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-5.php">【古风女声】人间有情 无关风月</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_6.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-6.php">【汉风·戏腔】古韵之美</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_7.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-7.php">轻吟浅唱，去拥抱一夏天的风</a>
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="img">
+                    <img src="images/style_8.png" alt="">
+                </div>
+                <div class="lable">
+                    <a href="src/detail-8.php">华语篇 风止于秋水 我止于你</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<!--4.脚注区域-->
+<footer>
+    <p>如果您有什么疑问请联系我们，非常感谢！</p>
+    <ul>
+        <li><a href="#">关于我们 | </a></li>
+        <li><a href="#">了解详情 | </a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+</footer>
+<!--5.登录框-->
+<div class="out-login">
+    <header>
+        <label>登录</label>
+        <button id="login-close" class="btn btn-danger">X</button>
+    </header>
+    <div class="login-content">
+        <input type="text" name="username" placeholder="手机号">
+        <hr>
+        <input type="text" name="passward" placeholder="密码">
+        <hr>
+        <div id="msg"></div>
+        <button id="login" class="btn btn-danger">Login</button>
+    </div>
+    <div class="lable">
+        如果没有账号？立即<a id="sign" href="#">注册</a>一个
+    </div>
+</div>
+<!--6.注册框-->
+<div class="out-sign">
+    <header>
+        <label>注册</label>
+        <button id="sign-close" class="btn btn-danger">X</button>
+    </header>
+    <div class="sign-content">
+        <input type="text" name="username" placeholder="手机号">
+        <hr>
+        <input type="text" name="passward" placeholder="密码">
+        <hr>
+        <input type="text" name="repassward" placeholder="再次输入密码">
+        <div id="sign-msg"></div>
+        <button id="sign-btn" class="btn btn-danger">Sign Up</button>
+    </div>
+</div>
+
+<!-- 功能实现 -->
+<script src="js/myScript/swiper-banner.js"></script>
+<script src="js/login-and-regis.js"></script>
+<script src="js/play.js"></script>
+<script src="js/date.js"></script>
+</body>
+</html>
